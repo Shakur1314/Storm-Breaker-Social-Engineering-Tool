@@ -1,6 +1,6 @@
 # Storm-Breaker-Social-Engineering-Tool
 
-![Banner](images/stormbreaker-banner.jpg.jpeg)
+![Banner](stormbreaker-banner.jpg.jpeg)
 
 A powerful phishing tool for security testing and penetration testing purposes. Storm Breaker captures device information, camera access, microphone access, and location data through social engineering.
 
@@ -18,7 +18,7 @@ Navigate to the project directory and launch the tool with root privileges to in
 sudo python3 st.py
 ```
 
-![Terminal Start](images/Terminal-start.jpg.jpeg)
+![Terminal Start](Terminal-start.jpg.jpeg)
 
 ### Step 2: Tunneling with Ngrok
 To reach targets outside your local network, start an ngrok tunnel on port 2525.
@@ -27,26 +27,26 @@ To reach targets outside your local network, start an ngrok tunnel on port 2525.
 ngrok http 2525
 ```
 
-![Ngrok Setup](images/ngrok-setup.jpg.jpeg)
+![Ngrok Setup](ngrok-setup.jpg.jpeg)
 
 ### Step 3: Template Selection
 Access the web panel to select a phishing template. Each template is designed for a specific data-gathering objective.
 
-![Control Panel Desktop](images/control-panel-desktop.jpg.jpeg)
-![Control Panel Mobile](images/control-panel-mobile.jpg.png)
+![Control Panel Desktop](control-panel-desktop.jpg.jpeg)
+![Control Panel Mobile](control-panel-mobile.jpg.png)
 
 ### Step 4: Target Interaction
 The target receives a permission request. Once they click "Allow," the listener gains access to the hardware.
 
-![Target Permission Request](images/target-permission-request.jpg.png)
+![Target Permission Request](target-permission-request.jpg.png)
 
 ### Step 5: Data Capture & Logging
 - Monitor the incoming server logs for real-time HTTP requests.
 - Review the exfiltrated device information and captured media files in the panel.
 
-![Server Logs](images/server-logs.jpg.jpeg)
-![Captured Device Data](images/captured-device-data.jpg.jpeg)
-![Image Saved Notification](images/image-saved-notif.jpg.jpeg)
+![Server Logs](server-logs.jpg.jpeg)
+![Captured Device Data](captured-device-data.jpg.jpeg)
+![Image Saved Notification](image-saved-notif.jpg.jpeg)
 
 ---
 
